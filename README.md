@@ -12,7 +12,7 @@ A data‑driven project analyzing state‑wise road accident patterns in India u
   
 data/          → raw & cleaned datasets
 
-notebooks/     → Jupyter notebooks (EDA, modeling, clustering)
+tool/     → vs code (EDA, modeling, clustering)
 
 scripts/       → reusable Python modules
 
