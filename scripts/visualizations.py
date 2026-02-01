@@ -33,8 +33,9 @@ def plot_clusters(df):
     for i, state in enumerate(df['State']):
         plt.text(df['Total_Accidents'][i],
                 df['Persons_Killed'][i],
-                state,
-                fontsize=8)
+                state,fontsize=8,alpha=0.7)
+
+        
 
 
     plt.tight_layout()
