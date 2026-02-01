@@ -1,4 +1,3 @@
-
 import pandas as pd
 
 def calculate_risk_score(df):

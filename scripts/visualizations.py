@@ -30,6 +30,12 @@ def plot_clusters(df):
     plt.xlabel("Total Accidents")
     plt.ylabel("Persons Killed")
     plt.title("State-wise Accident Clusters (K-Means)")
+    for i, state in enumerate(df['State']):
+        plt.text(df['Total_Accidents'][i],
+                df['Persons_Killed'][i],
+                state,
+                fontsize=8)
+
 
     plt.tight_layout()
     plt.show(block=True)
